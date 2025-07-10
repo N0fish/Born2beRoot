@@ -76,7 +76,7 @@ The goal is to set up a Linux **virtual machine** without a graphical interface,
 - Зашифрованное `LVM`-разбиение, активный SELinux или AppArmor.
 - Bash-скрипт `monitoring.sh`, выполняющийся каждые 10 минут через cron.
 
-## Возможности:
+## Функциональность:
 - `SSH`-доступ только по порту `4242`, без доступа для root.
 - Пользователь без root-прав, но с доступом через `sudo`, в группе `user42`.
 - Активный файрволл, открыт только `порт` 4242.
